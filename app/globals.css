@@ -1,6 +1,6 @@
 :root{--ivory:#FFF8F3;--rose:#E58C9D;--rose-d:#C45C74;--gold:#C79A4B;--ink:#5B3A44}
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;overflow-x:clip}
 body{font-family:var(--f-body),sans-serif;color:var(--ink);min-height:100dvh;overflow-x:hidden;line-height:1.7;
  background:var(--ivory) radial-gradient(circle at 12% 8%,#fde1e6 0,transparent 42%) fixed,
  radial-gradient(circle at 92% 45%,#f6ecd4 0,transparent 38%) fixed,radial-gradient(circle at 8% 92%,#e3efdc 0,transparent 42%) fixed}
@@ -29,7 +29,7 @@ a{color:inherit}
 .main{position:relative;z-index:1;animation:fade 1.2s;padding-bottom:30px}
 .wrap{width:min(560px,100%);margin:0 auto;padding:18px 16px}
 .hero{display:flex;flex-direction:column;align-items:center;text-align:center;padding:34px 16px 10px}
-.bism{font-family:var(--f-basmala),serif;font-size:clamp(3.6rem,20vw,6.4rem);line-height:1.2;
+.bism{font-family:var(--f-basmala),serif;font-size:clamp(1.8rem,7.5vw,4.2rem);line-height:1.5;max-width:100%;white-space:nowrap;padding:0 .15em;
  background:linear-gradient(100deg,#a97b2f 20%,#f1d58a 45%,#a97b2f 70%);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 5s linear infinite}
 @keyframes shine{to{background-position:-220% 0}}
 .names{font-family:var(--f-names);font-weight:700;display:flex;flex-direction:column;align-items:center;line-height:1.1;margin:6px 0 22px}
