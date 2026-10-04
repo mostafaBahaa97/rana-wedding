@@ -1,5 +1,5 @@
 // Google Apps Script — الصقه في Extensions > Apps Script جوه الشيت
-const SECRET = 'غيّر-الكلمة-دي-لسر-خاص-بيك';
+const SECRET = 'ahmed-rana';
 const SHEET = 'Messages';
 
 function sheet_() {
